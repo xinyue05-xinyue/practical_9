@@ -132,6 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void addMood() {
     showBottomSheet('Add Mood', () async {
       var mood = MoodModel(
+
         id: 0,
         scale: _scale,
         description: descriptionController.text,
